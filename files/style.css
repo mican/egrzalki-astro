@@ -628,7 +628,7 @@ header {
     }
     .link-logo {
       float: none !important;
-      margin: 0 auto img {
+      margin:0 auto img {
         max-height: 80px;
       }
     }
@@ -658,7 +658,7 @@ header {
             color: @maincolor2;
           }
           &::before {
-            /* border-radius(50%); */
+            .border-radius(50%);
             content: counter(item);
             counter-increment: item;
             display: inline-block;
@@ -7348,7 +7348,7 @@ footer {
     height: 0;
     overflow: hidden;
     padding: 26px 0 0 0;
-    /* .box-sizing; */
+    .box-sizing;
 
     &:before {
       font-family: FontAwesome;
